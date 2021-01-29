@@ -5,5 +5,3 @@
       document.getElementById('f2' ).hidden = true;
     }
     
-
-    
