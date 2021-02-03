@@ -472,6 +472,10 @@ margin: 10px;
 	font-size: 22px;
 	text-transform: uppercase;
 	background-color: #ffaf02;
+	
+}
+.btnServ a{
+text-decoration: none;
 }
 .addServices{
 	padding-top: 10px;
@@ -707,6 +711,27 @@ margin: 10px;
 	#f1{
 		display: none;
 	}
+.slider{
+	display: none;
+}
+.wrapperSlider{
+	display: none;
+}
+.map{
+	width: auto;
+}
+.textListScreatch{
+	color: white;
+	font-size: 1.5em;
+	margin-left: 7% ;
+	
+}
+.titleListScreatch{
+	color: #ffaf02;
+	font-size: 1.2em;
+	margin-left: 7%;
+	padding: 10px 0;
+}
 }
 
 @media(max-width:500px) {
@@ -806,4 +831,73 @@ padding: 15px;
 	margin: 0;
 	justify-content: center;
 
+}
+/*lowslider/*/
+.wrapperSlider{
+	background-color: #fff;
+	width: 100%;
+	height: 450px;
+}
+
+.slick-list{
+overflow: hidden;
+} 
+.slick-track{
+ display: flex; 
+ align-items: flex-start;
+}
+
+
+.slider{
+	max-width: 600px;
+	position: relative;
+	padding: 0px 60px;
+	margin: 0 auto;
+	top: 35px;
+}
+
+.slider .slick-arrow{ 
+	position: absolute;
+	top: 50%;
+	margin:-30px 0px 0px 0px; 
+	z-index: 10;
+	font-size: 0;
+	width: 20px;
+	height: 35px;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background:url(img/slider/leftarr.png) 0 0 /100% no-repeat;
+	border: 0px;
+}
+.slider .slick-arrow.slick-next{
+right: 0;
+background: url(img/slider/rigtharr.png) 0 0 / 100% no-repeat;
+border: 0px;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin:0px 10px;
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	background-color:#f0f0f0;
+	
+	border:0px ; 
+}
+.slider .slick-dots li.slick-active button{
+	background-color: #ffaf02;
+	border:1px solid #fff;
+} 
+.sliderbig{}
+.sliderbig_item{
+	text-align: center;
 }
